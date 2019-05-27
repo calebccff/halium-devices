@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="los-eva" fetch="https://github.com/OpenKirin/" revision="android-7.1.1_r22"/>
+
+  <project path="device/huawei/eva" name="android_device_huawei_eva" remote="los-eva"/>
+  
+  <project path="kernel/huawei/hi3650" name="android_kernel_huawei_hi3650" remote="los-eva" revision="7.x"/>
+
+  <project path="vendor/huawei/eva" name="android_vendor_huawei_eva" remote="los-eva" revision="7.x"/>
+  <project path="vendor/nxp-nfc/opensource/frameworks" name="android_vendor_nxp-nfc_opensource_frameworks" remote="los" revision="cm-14.1"/>>
+  <project path="vendor/nxp-nfc/opensource/libnfc-nci" name="android_vendor_nxp-nfc_opensource_libnfc-nci" remote="los" revision="cm-14.1"/>>
+  <project path="vendor/nxp-nfc/opensource/Nfc" name="android_vendor_nxp-nfc_opensource_Nfc" remote="los" revision="cm-14.1"/>>
+</manifest>
